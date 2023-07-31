@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                Open Modal
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Employee selection</h3><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                           <label for="search" class="float-left" style="margin-left: 200px">Search:</label>
+                            <input type="text" id="search" class="form-control ml-auto" style="width: 200px">
+                            <table class=" my-5 table table-bordered table-striped table-hover table-light text-center text-uppercase table-sm">
+                                <tr>
+                                    <th>Emp#</th>
+                                    <th>First name</th>
+                                    <th>Middle name</th>
+                                    <th>last name</th>
+                                    <th>Gender></th>
+                                </tr>
+                                <tr>
+                                    <td>EMP-16-000001</td>
+                                    <td>Exequiel</td>
+                                    <td>Santos</td>
+                                    <td>Cuevas</td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <td>EMP-16-000001</td>
+                                    <td>Exequiel</td>
+                                    <td>Santos</td>
+                                    <td>Cuevas</td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <td>EMP-16-000001</td>
+                                    <td>Exequiel</td>
+                                    <td>Santos</td>
+                                    <td>Cuevas</td>
+                                    <td>Male</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
